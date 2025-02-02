@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+     <head>
+    <title>
+        Walentynki
+    </title>
+     </head>
+     <body>
+     <img src="kot4.webp" class="imgMain"
+        height="345", width="345">
+        <div>
+            <h1>Czy będziesz moją Walentynką Soji?</h1>
+            <button id="takButton">Tak</button>
+            <button id="nieButton">Nie</button>
+     
+        </div>
+        <br>
+        <img src="kot6.avif">
+        <style>
+            div{
+                text-align: center;
+                vertical-align: middle;
+            }
+            #no{
+                position: absolute;
+            
+            }
+            img{
+                display: block;
+                margin: auto;
+            }
+            body {
+                background-color: rgb(151, 44, 101);
+            }
+        </style>
+        <script>
+            document.getElementById("takButton").addEventListener("click", showAlert);
+            function showAlert()  {
+                alert("Zostałaś Walentynką Gracjana Ochocińskiego!!! Kocham Cię Soji<3");
+            }
+            var no = document.getElementById("Nie");
+            no.addEventListener("click", change);
+            function change() {
+                var i = Math.floor(Math.random()+1000) +1;
+                var j = Math.floor(Math.random()+700)+1;
+                no.style.left = i +"px"
+                no.style 
+            }
+         </script>
+     </body>
+</html>
